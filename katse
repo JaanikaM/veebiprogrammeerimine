@@ -15,3 +15,22 @@ cd skriptimine
 
 d) tekita lokaalne repositoorium git systeemi jaoks antud kaustas
 git init
+
+remote seadistamine
+
+a) git remote add nimi aadress
+git remote add veebiprogrammeerimine https://github.com/JaanikaM/veebiprogrammeerimine.git
+
+b) git remote kontroll
+git remote -v
+
+P6hikasutamine
+
+a) pane fail j2lgimisele
+git add failinimi
+
+b) lisa kirjeldus muudatuse kohta
+git commit -m "lyhikirjelduse lause"
+
+c) lisa kaugrepositooriumi
+git push -uf veebiprogrammeerimine master
